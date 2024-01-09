@@ -1,0 +1,24 @@
+body {
+    background-color: #2d3e4e;
+    background-position: 50%;
+}
+.banner_img{
+    background-image: url('assets/img/hamburgDigital1.png');
+    /*!*background-color: #cccccc;*!*/
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*.banner_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; !* Setzt die Breite auf die volle Breite des Viewports *!
+    height: 100vh; !* Setzt die Höhe auf die volle Höhe des Viewports *!
+    background-image: url('hamburgDigital1.png'); !*!* Pfad zu Ihrem Hintergrundbild *!*!
+    background-size: cover; !*!* Stellt sicher, dass das Bild den gesamten Bereich abdeckt *!*!
+    background-position: center; !*!* Zentriert das Bild *!*!
+    background-repeat: no-repeat; !*!* Verhindert das Wiederholen des Bildes *!*!
+    z-index: -1; !* Stellt das div hinter den anderen Inhalt *!
+}*/

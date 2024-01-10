@@ -223,7 +223,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  /*font-size: 30px;*/
+  /*width: 500px;*/
+  color: turquoise;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  /*font-family: ;*/
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -3102,6 +3106,8 @@ textarea.form-control-lg {
 }
 
 .btn-info {
+  background-color: turquoise;
+  border-color: turquoise;
   --bs-btn-color: #000;
   --bs-btn-bg: #0dcaf0;
   --bs-btn-border-color: #0dcaf0;
